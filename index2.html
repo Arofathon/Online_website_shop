@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="/logo.png"  width 2px ="Logo" />
+        
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+      </nav>
+      <div class="footer__icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-pinterest-p"></i></a>
+        <a href=""><i class="fa fa-whatsapp"></i></a>
+        <a href=""><i class="fa fa-youtube-play"></i></a>
+      </div>
+      <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+    
+        menuToggle.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      </script>
+</body>
+</html>

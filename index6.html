@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+.item:hover {
+  transform: translateY(-10px);
+}
+.grid-container{
+  display: grid;
+/*  grid-template-areas: auto auto auto/auto auto auto;*/
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+
+/*grid-template-areas: 150px/auto auto auto;*/
+ grid-gap: 5px;
+background-color: #fff;
+padding: 10px;
+height: 1400px;
+}
+.grid-container{
+  background-color:#fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 4, 94);
+    color: #00adb5;
+    padding: 10px 20px;
+    position: relative;
+}
+.item1{
+  grid-area: 1/1/span4/span16;
+}
+.grid-container>div{
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 20px 0;
+  font: size 25px; ;
+}
+#foot{
+  width: 100%;
+  height: 40vh;
+  background-color: #00adb5;
+  text-align: center;
+  padding: 20PX;
+}
+
+    </style>
+
+</head>
+<body>
+    <hr>
+            
+    <div class="grid-container">
+        <div class="item1">
+            <h1 >Pages</h1>
+        
+            <a href="/index.html">All</a>
+            <a href="./index6.html">PAGES</a>
+            <a href="/index5.html">EVENTS</a>
+            <a href="">BLOG</a>
+            <a href="">GALLERY</a>
+            <a href="">SHOP</a>
+            <a href="">ELEMENTS</a>
+        </div>
+        <div class="item">
+            <img src="monstr-pages-1.jpg" alt="">
+            <h2>About</h2>
+         </div>
+        <div class="item">
+            <img src="monstr-pages-2.jpg" alt="">
+            <h2>Our Team</h2>
+        </div>
+        <div class="item">
+            <img src="monstr-pages-3.jpg" alt="">
+            <h2>Team Member Profilie</h2>
+        </div>
+        <div class="item">
+            <img src="monstr-pages-4.jpg" alt="">
+            <h2>Services</h2>
+        </div>
+    
+            <div class="item">
+               <img src="monstr-pages-5.jpg" alt="">
+               <h2>Single Service Page</h2>
+            </div>
+           <div class="item">
+               <img src="monstr-pages-6.jpg" alt="">
+               <h2>Our Story</h2>
+           </div>
+           <div class="item">
+               <img src="monstr-pages-7.jpg" alt="">
+               <h2>Monthly Events</h2>
+           </div>
+           <div class="item">
+               <img src="monstr-pages-8.jpg" alt="">
+               <h2>Booking</h2>
+           </div>
+        
+        <div class="item">
+           <img src="monstr-pages-9.jpg" alt="">
+           <h2>Contacts</h2>
+        </div>
+        <div class="item">
+           <img src="monstr-pages-10.jpg" alt="">
+           <h2>FAQs</h2>
+        </div>
+        <div class="item">
+           <img src="monstr-pages-11.jpg" alt="">
+           <h2>Pricing</h2>
+        </div>
+        <div class="item">
+           <img src="monstr-pages-12.jpg" alt="">
+           <h2>Careers</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-13.jpg" alt="">
+        <h2>Clients</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-14.jpg" alt="">
+        <h2>Maintenance</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-15.jpg" alt="">
+        <h2>404 Page</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-16.jpg" alt="">
+        <h2>Search Results</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-17.jpg" alt="">
+        <h2>Coming Soon</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-pages-18.jpeg" alt="">
+        <h2>Privase Policy</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-event-1.jpg" alt="">
+        <h2>Monthly Events</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-event-2.jpg" alt="">
+        <h2>Event List</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-event-3.jpg" alt="">
+        <h2>Single Event</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-1.jpg" alt="">
+        <h2>Standard Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-2.jpg" alt="">
+        <h2>Nonstandard Post With Sidebar</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-3.jpg" alt="">
+        <h2>Nonstandard Post </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-4.jpg" alt="">
+        <h2>Gallery Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-5.jpg" alt="">
+        <h2>Image Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-6.jpg" alt="">
+        <h2>Link Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-7.jpg" alt="">
+        <h2>Quote Post </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-8.jpg" alt="">
+        <h2>Video Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-post-9.jpg" alt="">
+        <h2>Audio Post</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-1.jpg" alt="">
+        <h2>Classic blog</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-2.jpg" alt="">
+        <h2>Grid Blog </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-3.jpg" alt="">
+        <h2>Masonry Blog</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-4.jpg" alt="">
+        <h2>Jastify Blog</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-sidebar-1.jpeg" alt="">
+        <h2>Left Sidebar</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-sidebar-2.jpeg" alt="">
+        <h2>Right Sidebar </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-blog-sidebar-3.jpeg" alt="">
+        <h2>no Sidebar</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-gallery-1.jpg" alt="">
+        <h2>Portfolio</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-gallery-2.jpg" alt="">
+        <h2>Single Portfolio</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-shop-1.jpg" alt="">
+        <h2>Shop Grid </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-shop-2.jpg" alt="">
+        <h2>shop list</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-shop-3.jpg" alt="">
+        <h2>Single Product</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-shop-4.jpg" alt="">
+        <h2>Cart</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-shop-5.jpg" alt="">
+        <h2>Checkout </h2>
+        </div>
+         <div class="item">
+        <img src="monstr-element-1.jpg" alt="">
+        <h2>Accordion</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-2.jpg" alt="">
+        <h2>Audio</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-3.jpg" alt="">
+        <h2>Blurb</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-4.jpg" alt="">
+        <h2>Buttons </h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-5.jpg" alt="">
+        <h2>Typography</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-6.jpg" alt="">
+        <h2>Testimonials</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-7.jpg" alt="">
+        <h2>Text</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-8.jpg" alt="">
+        <h2>Countdown</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-9.jpg" alt="">
+        <h2>Animated Counter</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-10.jpg" alt="">
+        <h2>Number Counter</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-11.jpg" alt="">
+        <h2>Circles Counter</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-12.jpg" alt="">
+        <h2>Pricing Table </h2>
+        </div>
+        <div class="item">
+         <img src="monstr-element-13.jpg" alt="">
+        <h2>Images</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-14.jpg" alt="">
+        <h2>Person</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-15.jpg" alt="">
+        <h2>Slider</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-16.jpg" alt="">
+        <h2>Call To Action</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-17.jpg" alt="">
+        <h2>Toggles</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-18.jpg" alt="">
+        <h2>Tabs</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-19.jpg" alt="">
+        <h2>Contact Forms</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-20.jpg" alt="">
+        <h2>Maps</h2>
+        </div>
+        <div class="item">
+        <img src="monstr-element-21.jpg" alt="">
+        <h2>Social Sharing</h2>
+        </div>
+    </div>   
+    
+
+  <footer id="foot">
+        
+        <h3>Monstroid2 is a flexible solution with lots of advantages </h3>
+        <p>our template offers you a variety of elements to be combined.</p>
+    <button>GET IT NOW</button>
+    </footer>
+        
+       
+   
+</body>
+</html>
+      
